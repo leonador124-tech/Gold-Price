@@ -1,1 +1,1 @@
-#Gold Price
+Gold Price
