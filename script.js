@@ -2,9 +2,6 @@ const buy = document.querySelector('.buy');
 const sell = document.querySelector('.sell');
 const date = document.querySelector('.date')
 
-buy.innerText = 'Kuy';
-sell.innerText = 'Kuy';
-
 fetch('https://api.chnwt.dev/thai-gold-api/latest')
     .then((response) => {
         return response.json();
