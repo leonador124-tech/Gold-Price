@@ -11,5 +11,5 @@ fetch('https://api.chnwt.dev/thai-gold-api/latest')
 
         buy.innerText = Gold.buy + ' THB';
         sell.innerText = Gold.sell + ' THB';
-        date.innerText = data.response.date;
+        date.innerText = data.response.update_date;
     })
